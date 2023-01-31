@@ -1,0 +1,35 @@
+{
+  "name": "indecision-app",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "serve": "live-server public/",
+    "build": "webpack",
+    "dev-server": "webpack-dev-server",
+    "build-babel": "babel src/app.js --out-file=public/scripts/app.js --presets=env,react --watch"
+  },
+  "dependencies": {
+    "@babel/core": "^7.17.8",
+    "@babel/preset-env": "^7.16.11",
+    "@babel/preset-react": "^7.16.7",
+    "babel-cli": "^6.26.0",
+    "babel-loader": "^8.2.4",
+    "babel-plugin-transform-class-properties": "^6.24.1",
+    "css-loader": "^6.7.1",
+    "live-server": "^1.2.1",
+    "node-sass": "^7.0.1",
+    "normalize.css": "^8.0.1",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-modal": "^3.14.4",
+    "sass-loader": "^12.6.0",
+    "style-loader": "^3.3.1",
+    "validator": "^13.7.0",
+    "webpack": "^5.70.0",
+    "webpack-dev-server": "^4.7.4"
+  },
+  "devDependencies": {
+    "webpack-cli": "^4.9.2"
+  }
+}
